@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Poppins', sans-serif;
+            background-color: #f3f4f6;
+        }
+
+        .profile-container {
+            max-width: 800px;
+            margin: 50px auto;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 2rem;
+        }
+
+        .profile-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 2rem;
+        }
+
+        .profile-header img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-right: 1.5rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .profile-header h1 {
+            font-size: 1.8rem;
+            color: #333;
+            margin: 0;
+        }
+
+        .profile-header p {
+            font-size: 1rem;
+            color: #666;
+            margin: 0.5rem 0 0 0;
+        }
+
+        .profile-details {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1rem;
+        }
+
+        .profile-details div {
+            background: #f9fafb;
+            border-radius: 8px;
+            padding: 1rem;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+        }
+
+        .profile-details div h3 {
+            margin: 0 0 0.5rem 0;
+            font-size: 1rem;
+            color: #555;
+        }
+
+        .profile-details div p {
+            margin: 0;
+            font-size: 0.9rem;
+            color: #777;
+        }
+
+        .edit-profile {
+            display: block;
+            width: fit-content;
+            margin: 2rem auto 0;
+            background: #6a11cb;
+            color: #fff;
+            text-decoration: none;
+            padding: 0.8rem 2rem;
+            border-radius: 6px;
+            font-size: 1rem;
+            text-align: center;
+            transition: background 0.3s;
+        }
+
+        .edit-profile:hover {
+            background: #2575fc;
+        }
+
+        .account-section {
+            margin: 2rem 0;
+        }
+
+        .account-section h2 {
+            font-size: 1.5rem;
+            color: #333;
+            margin-bottom: 1rem;
+        }
+
+        .account-section ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .account-section ul li {
+            background: #f9fafb;
+            margin-bottom: 0.5rem;
+            padding: 0.8rem;
+            border-radius: 6px;
+            font-size: 0.9rem;
+            color: #555;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+        }
+
+        .account-section ul li span {
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+    <div class="profile-container">
+        <div class="profile-header">
+            <img src="profile-picture.jpg" alt="Profile Picture">
+            <div>
+                <h1>Myntra User</h1>
+                <p>Overview</p>
+            </div>
+        </div>
+
+        <div class="profile-details">
+            <div>
+                <h3>Full Name</h3>
+                <p>- not added -</p>
+            </div>
+            <div>
+                <h3>Mobile Number</h3>
+                <p>--not added--</p>
+            </div>
+            <div>
+                <h3>Email ID</h3>
+                <p>- not added -</p>
+            </div>
+            <div>
+                <h3>Gender</h3>
+                <p>- not added -</p>
+            </div>
+            <div>
+                <h3>Date of Birth</h3>
+                <p>- not added -</p>
+            </div>
+            <div>
+                <h3>Location</h3>
+                <p>- not added -</p>
+            </div>
+            <div>
+                <h3>Alternate Mobile</h3>
+                <p>- not added -</p>
+            </div>
+            <div>
+                <h3>Hint Name</h3>
+                <p>- not added -</p>
+            </div>
+        </div>
+
+        <a href="#" class="edit-profile">EDIT</a>
+    </div>
+</body>
+</html>

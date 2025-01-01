@@ -227,3 +227,94 @@
   
   /*****************************************************************************/
 
+  /* .iconOfProfile {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    position: relative;
+}
+
+.iconOfProfile img {
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.iconOfProfile img:hover {
+    transform: scale(1.1);
+}
+
+.dropdownOfProfile {
+    display: none;
+    position: absolute;
+    top: 35px;
+    left: 0;
+    background-color: white;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    width: 200px;
+    z-index: 10;
+}
+
+.dropdownOfProfile a {
+    display: block;
+    padding: 10px 15px;
+    color: #333;
+    text-decoration: none;
+    transition: background-color 0.2s;
+}
+
+.dropdownOfProfile a:hover {
+    background-color: #f0f0f0;
+}
+
+.iconOfProfile:hover .dropdownOfProfile {
+    display: block;
+} */
+
+.icons {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  position: relative;
+}
+
+.icons img {
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.icons img:hover {
+  transform: scale(1.1);
+}
+
+.dropdownofProfile {
+  display: none;
+  position: absolute;
+  top: 35px;
+  left: 0;
+  background-color: white;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  width: 200px;
+  z-index: 10;
+}
+
+.dropdownofProfile a {
+  display: block;
+  padding: 10px 15px;
+  color: #333;
+  text-decoration: none;
+  transition: background-color 0.2s;
+}
+
+.dropdownofProfile a:hover {
+  background-color: #f0f0f0;
+}
+
+.dropdown-container {
+  position: relative;
+}
+
+.dropdown-container:hover .dropdownofProfile {
+  display: block;
+}

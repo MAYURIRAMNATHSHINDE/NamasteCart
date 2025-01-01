@@ -1,5 +1,5 @@
-import { navbar } from "./navbar";
-
+import { navbar } from "./navbar.js";
+navbar()
 
 const menuItems = document.querySelectorAll('.menu-item');
     const dropdown = document.querySelector('.dropdown');
@@ -22,3 +22,5 @@ const menuItems = document.querySelectorAll('.menu-item');
       dropdown.classList.remove('show');
     });
     
+
+   

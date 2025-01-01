@@ -1,5 +1,5 @@
 export const navbar = () => {
-    return `
+  return `
        <div class="empty">
             <p>Members lace up our newest run-to-train shoe first, starting January 2—only on the app.<u>Download the
                     App</u></p>
@@ -16,7 +16,7 @@ export const navbar = () => {
                 <li class="menu-item">Women</li>
                 <li class="menu-item">Men</li>
                 <li class="menu-item">Accessories</li>
-                <li class="menu-item">Shoes</li>
+                <li class="menu-item">Kids</li>
                 <li class="menu-item">What's New</li>
                 <li class="menu-item" style="color: red;">New Year Scores</li>
             </ul>
@@ -24,11 +24,23 @@ export const navbar = () => {
             <div class="search-bar">
                 <input type="text" placeholder="  Search on NamasteCart...">
             </div>
-            <div class="icons">
-                <img src="./assets/Login1.png" alt="login image" style="width: 25px; height:25px;">
-                <img src="./assets/wishlist.png" alt="login image" style="width: 25px; height:25px;">
-                <img src="./assets/AddToCart.png" alt="login image" style="width: 25px; height:25px;">
+             <div class="icons">
+        <div class="dropdown-container">
+            <img id="login-icon" src="./assets/Login1.png" alt="login image" style="width: 25px; height:25px;" onclick="redirectToLogin()">
+            <div class="dropdownofProfile" id="dropdown-menu">
+                <a href="./profile.html">Profile</a>
+                <a href="./orders.html">Orders</a>
+                <a href="./wishlist.html">Wishlist</a>
+                <a href="./gift-cards.html">Gift Cards</a>
+                <a href="./contact-us.html">Contact Us</a>
+                <a href="./saved-addresses.html">Saved Addresses</a>
+                <a href="./edit-profile.html">Edit Profile</a>
+                <a href="./logout.html">Logout</a>
             </div>
+        </div>
+        <img src="./assets/wishlist.png" alt="wishlist image" style="width: 25px; height:25px;">
+        <img src="./assets/AddToCart.png" alt="add to cart image" style="width: 25px; height:25px;">
+    </div>
     
         </nav>
         <div class="dropdown">
@@ -62,3 +74,5 @@ export const navbar = () => {
           </div>`;
 }
 navbar()
+
+  
