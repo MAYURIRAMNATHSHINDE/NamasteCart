@@ -1,7 +1,9 @@
-import { navbar } from "./navbar.js";
+import { navbar,footer } from "./navbar.js";
 
 let Header=document.querySelector(".header");
 Header.innerHTML=navbar()
+let footerCont=document.querySelector(".footer-cont");
+footerCont.innerHTML=footer();
 
 // ////////////////////////// Login Page ////////////////////////
 
@@ -35,4 +37,4 @@ const loginIcon = document.getElementById('login-icon');
             }, 3000); // Small delay to handle mouse transition
         });
 
-     
+     /////////////////////////////////////////////////////////////////////////
